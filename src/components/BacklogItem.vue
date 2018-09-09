@@ -1,12 +1,13 @@
 <template>
-<div>
+<div class="backlog-item">
       <md-card>
-        <md-card-header>
-          <div class="md-title">{{game.name}}</div>
-        </md-card-header>
+        <md-card-media>
+          <img :src="game.image" alt="Cover">
+        </md-card-media>
 
         <md-card-content>
-          {{game.description}}
+          <h1>{{game.name}}</h1>
+          <p>{{game.description}}</p>
         </md-card-content>
 
         <md-card-actions>
@@ -27,18 +28,25 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.backlog-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .md-card {
+    overflow: auto;
+    .md-card-media {
+      float: left;
+      width: 20%;
+      padding: 10px;
+      height: 100%;
+    }
+    .md-card-content {
+      float: right;
+      text-align: left;
+      width: 80%;
+    }
+    .md-card-actions {
+      float: right;
+    }
+  }
 }
 </style>
