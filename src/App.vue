@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <a href="https://insidific.com"><img class="logo" alt="Vue logo" src="./assets/Insidific_logo.png"></a>
+    <a href="https://insidific.com"><img class="logo" alt="Vue logo" src="./assets/Insidific_logo.jpg"></a>
     <Backlog :backLog="backLogJson"/>
     <Footer />
   </div>
