@@ -1,21 +1,28 @@
 <template>
   <div id="app">
-    <img class="logo" alt="Vue logo" src="./assets/Insidific_logo.png">
-    <Backlog items="[{ message: 'Foo' },{ message: 'Bar' }]"/>
+    <a href="https://insidific.com"><img class="logo" alt="Vue logo" src="./assets/Insidific_logo.png"></a>
+    <Backlog :backLog="backLogJson"/>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Backlog from "./components/Backlog.vue";
-
+import Footer from "./components/Footer.vue";
+import json from "./assets/games.json";
 export default {
   name: "app",
   components: {
-    Backlog
+    Backlog,
+    Footer
+  },
+  data(){
+    return{
+        backLogJson: json
+    };
   }
 };
 </script>
-
 <style lang="scss">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -28,7 +35,7 @@ export default {
   .logo {
     padding: 50px;
     width: 250px;
-    }
+  }  
 }
 
 

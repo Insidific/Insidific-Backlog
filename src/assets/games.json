@@ -1,27 +1,37 @@
-{ "games": {
+{
     "Game1": {
-        "name": "The Elder SCrolls",
-        "description": "After the mysterious and untimely death of the Emperor, desperate factions vie for control of Tamriel's throne. With the empire ready to crumble, the gates of Oblivion open and demons march upon the land, laying waste to everything in their path. To turn the tide of darkness the player must find the lost heir to the throne and unravel the sinister plot that threatens to destroy all of Tamriel.",
-        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/sv4nva12ensjqmqiqltn.jpg"
+        "name": "Marvel's Spider-Man",
+        "developer": "Insomniac Games",
+        "description": "Starring the world’s most iconic Super Hero, Spider-Man features the acrobatic abilities, improvisation and web-slinging that the wall-crawler is famous for, while also introducing elements never-before-seen in a Spider-Man game. From traversing with parkour and utilizing the environment, to new combat and blockbuster set pieces, it’s Spider-Man unlike any you’ve played before.",
+        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/xcrfutqlaa3q81m7blmh.jpg",
+        "completion": "incomplete"
     },
     "Game2": {
-        "name": "The Elder SCrolls",
-        "description": "After the mysterious and untimely death of the Emperor, desperate factions vie for control of Tamriel's throne. With the empire ready to crumble, the gates of Oblivion open and demons march upon the land, laying waste to everything in their path. To turn the tide of darkness the player must find the lost heir to the throne and unravel the sinister plot that threatens to destroy all of Tamriel.",
-        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/sv4nva12ensjqmqiqltn.jpg"        
+        "name": "God of War",
+        "developer": "SIE Santa Monica Studio",
+        "description": "It is a new beginning for Kratos. Living as a man, outside the shadow of the gods, he seeks solitude in the unfamiliar lands of Norse mythology. With new purpose and his son at his side, Kratos must fight for survival as powerful forces threaten to disrupt the new life he has created...",
+        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/cintjlnx6o8qyqtcnajl.jpg",
+        "completion": "incomplete"        
     },
     "Game3": {
-        "name": "The Elder SCrolls",
+        "name": "The Elder Scrolls IV: Oblivion",
+        "developer": "Bethesda Game Studios",
         "description": "After the mysterious and untimely death of the Emperor, desperate factions vie for control of Tamriel's throne. With the empire ready to crumble, the gates of Oblivion open and demons march upon the land, laying waste to everything in their path. To turn the tide of darkness the player must find the lost heir to the throne and unravel the sinister plot that threatens to destroy all of Tamriel.",
-        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/sv4nva12ensjqmqiqltn.jpg"
+        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/sv4nva12ensjqmqiqltn.jpg",
+        "completion": "incomplete"
     },
     "Game4": {
-        "name": "The Elder SCrolls",
-        "description": "After the mysterious and untimely death of the Emperor, desperate factions vie for control of Tamriel's throne. With the empire ready to crumble, the gates of Oblivion open and demons march upon the land, laying waste to everything in their path. To turn the tide of darkness the player must find the lost heir to the throne and unravel the sinister plot that threatens to destroy all of Tamriel.",
-        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/sv4nva12ensjqmqiqltn.jpg"
+        "name": "Halo: The Master Chief Collection",
+        "developer": "343 Industries",
+        "description": "Halo: The Master Chief Collection delivers the entire story of the Master Chief for the first time on one console. Play all four games at Xbox One visual fidelity and 60 fps, including a fully remastered Halo 2: Anniversary. Featuring campaigns and multiplayer maps from Halo: Combat Evolved, Halo 2 Halo 2 Vista, Halo 3 and Halo 4, plus access to the live-action digital series Halo: Nightfall and the upcoming Halo 5: Guardians Multiplayer Beta, Halo: The Master Chief Collection offers the definitive Halo experience exclusively on Xbox One on Nov. 11, 2014.",
+        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/n446ik9mbbypmjacgjnu.jpg",
+        "completion": "incomplete"
     },
     "Game5": {
-        "name": "The Elder SCrolls",
-        "description": "After the mysterious and untimely death of the Emperor, desperate factions vie for control of Tamriel's throne. With the empire ready to crumble, the gates of Oblivion open and demons march upon the land, laying waste to everything in their path. To turn the tide of darkness the player must find the lost heir to the throne and unravel the sinister plot that threatens to destroy all of Tamriel.",
-        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/sv4nva12ensjqmqiqltn.jpg"
+        "name": "Middle-earth: Shadow of War Definitive Edition",
+        "developer": "Monolith Productions",
+        "description": "Middle-earth: Shadow of War Definitive Edition, the most comprehensive version of last year’s epic open world action game, Developed by Monolith Productions, Middle-earth™: Shadow of War™ Definitive Edition includes the main game packaged together with all downloadable content (DLC), free updates and improvements.",
+        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/sp662qse8bpmgze51fve.jpg",
+        "completion": "incomplete"
     }
-}}
+}

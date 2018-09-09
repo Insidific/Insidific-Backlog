@@ -1,21 +1,18 @@
 <template>
-<div class="backlog-item">
-      <md-card>
-        <md-card-media>
-          <img :src="game.image" alt="Cover">
-        </md-card-media>
+  <div class="backlog-item">
+    <md-card :class="game.completion">
+      <md-card-media>
+        <img :src="game.image" alt="Cover">
+      </md-card-media>
 
-        <md-card-content>
-          <h1>{{game.name}}</h1>
-          <p>{{game.description}}</p>
-        </md-card-content>
-
-        <md-card-actions>
-          <md-button>Action</md-button>
-          <md-button>Action</md-button>
-        </md-card-actions>
-      </md-card>
-</div>
+      <md-card-content>
+        <h1>{{game.name}}</h1>
+        <h3>{{game.developer}}</h3>
+        <p>{{game.description}}</p>
+        <md-button class="md-raised" v-if="game.completion === 'complete'"><a href="http://youtube.com/insidific">Watch</a></md-button>
+      </md-card-content>     
+    </md-card>
+  </div>
 </template>
 
 <script>
@@ -26,13 +23,13 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .backlog-item {
   padding-top: 10px;
   padding-bottom: 10px;
   .md-card {
     overflow: auto;
+    color: #ffffff;
     .md-card-media {
       float: left;
       width: 20%;
@@ -44,9 +41,16 @@ export default {
       text-align: left;
       width: 80%;
     }
-    .md-card-actions {
+    .md-button {
       float: right;
+      background-color: #ffffff;
     }
+  }
+  .incomplete {
+    background-color: #EA9999;
+  }
+  .complete {
+    background-color: #B6D7A8;
   }
 }
 </style>

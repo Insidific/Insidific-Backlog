@@ -1,30 +1,22 @@
 <template>
 <div class="backlog">
-  <div v-for="data in myJson">
-    <div v-for="game in data">
-      <BacklogItem :game="game" />
-    </div>
+  <div v-for="(game, gameKey) in backLog" :key="gameKey">
+    <BacklogItem :game="game" />
   </div>
 </div>
 </template>
 
 <script>
 import BacklogItem from "./BacklogItem.vue";
-import json from '../assets/games.json'
 export default {
   name: "Backlog",
   components: {
     BacklogItem
   },
-  data(){
-      return{
-          myJson: json
-      }
-  }
+  props: ['backLog']
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .backlog {
   padding-left: 25px;

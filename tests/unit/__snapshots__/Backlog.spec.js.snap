@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Backlog.vue Backlog to Match Snapshot 1`] = `
+<div class="backlog">
+  <div>
+    <div class="backlog-item">
+      <div class="md-card md-theme-default incomplete">
+        <div class="md-card-media"><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/xcrfutqlaa3q81m7blmh.jpg" alt="Cover"></div>
+        <div class="md-card-content">
+          <h1>Marvel's Spider-Man</h1>
+          <h3>Insomniac Games</h3>
+          <p>Starring the world’s most iconic Super Hero, Spider-Man features the acrobatic abilities, improvisation and web-slinging that the wall-crawler is famous for, while also introducing elements never-before-seen in a Spider-Man game. From traversing with parkour and utilizing the environment, to new combat and blockbuster set pieces, it’s Spider-Man unlike any you’ve played before.</p>
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

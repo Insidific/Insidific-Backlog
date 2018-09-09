@@ -1,5 +1,9 @@
 # insidific-backlog
 
+## Project Details
+The design is based on Vue Material : https://vuematerial.io/
+With a Json file used to include the backlog games to be displayed.
+
 ## Project setup
 ```
 npm install
